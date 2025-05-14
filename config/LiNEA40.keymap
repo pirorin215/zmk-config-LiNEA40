@@ -67,39 +67,64 @@
     combos {
         compatible = "zmk,combos";
 
-        ZenkakuHankaku {
-            bindings = <&kp GRAVE>;
-            key-positions = <11 12>;
-        };
-
-        DeleteKey {
-            bindings = <&kp DEL>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
         };
 
-        InsertKey {
-            bindings = <&kp INS>;
-            key-positions = <6 7>;
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
         };
 
-        CenterClick {
-            bindings = <&mkp MB3>;
-            key-positions = <17 16>;
+        click {
+            bindings = <&mkp MB1>;
+            key-positions = <19 20>;
         };
 
-        RightClick {
-            bindings = <&mkp MB2>;
-            key-positions = <18 17>;
+        rclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
         };
 
-        PrevClick {
+        prevclick {
             bindings = <&mkp MB4>;
-            key-positions = <27 28>;
+            key-positions = <31 32>;
         };
 
-        ClickNext {
+        nextclick {
             bindings = <&mkp MB5>;
-            key-positions = <26 27>;
+            key-positions = <32 33>;
+        };
+
+        pageup {
+            bindings = <&kp PG_UP>;
+            key-positions = <11 23>;
+        };
+
+        pagedown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <35 23>;
+        };
+
+        ctrl+w {
+            bindings = <&kp RC(W)>;
+            key-positions = <23 9>;
+        };
+
+        ctrl+r {
+            bindings = <&kp RC(R)>;
+            key-positions = <23 7>;
+        };
+
+        ctrl+t {
+            bindings = <&kp RC(T)>;
+            key-positions = <23 6>;
+        };
+
+        F2combo {
+            bindings = <&kp F2>;
+            key-positions = <2 3>;
         };
     };
 
