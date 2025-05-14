@@ -69,62 +69,62 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
+            key-positions = <6 7>;
         };
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
         };
 
         click {
             bindings = <&mkp MB1>;
-            key-positions = <19 20>;
+            key-positions = <16 19>;
         };
 
         rclick {
             bindings = <&mkp RCLK>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
         };
 
         prevclick {
             bindings = <&mkp MB4>;
-            key-positions = <31 32>;
+            key-positions = <27 28>;
         };
 
         nextclick {
             bindings = <&mkp MB5>;
-            key-positions = <32 33>;
+            key-positions = <28 29>;
         };
 
         pageup {
             bindings = <&kp PG_UP>;
-            key-positions = <11 23>;
+            key-positions = <9 20>;
         };
 
         pagedown {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <35 23>;
+            key-positions = <31 20>;
         };
 
         ctrl+w {
             bindings = <&kp RC(W)>;
-            key-positions = <23 9>;
+            key-positions = <20 8>;
         };
 
         ctrl+r {
             bindings = <&kp RC(R)>;
-            key-positions = <23 7>;
+            key-positions = <20 7>;
         };
 
         ctrl+t {
             bindings = <&kp RC(T)>;
-            key-positions = <23 6>;
+            key-positions = <20 5>;
         };
 
         F2combo {
             bindings = <&kp F2>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
         };
     };
 
