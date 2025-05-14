@@ -79,47 +79,47 @@
 
         click {
             bindings = <&mkp MB1>;
-            key-positions = <16 19>;
+            key-positions = <16 17>;
         };
 
         rclick {
             bindings = <&mkp RCLK>;
-            key-positions = <19 20>;
+            key-positions = <17 19>;
         };
 
         prevclick {
             bindings = <&mkp MB4>;
-            key-positions = <27 28>;
+            key-positions = <26 27>;
         };
 
         nextclick {
             bindings = <&mkp MB5>;
-            key-positions = <28 29>;
+            key-positions = <27 28>;
         };
 
         pageup {
             bindings = <&kp PG_UP>;
-            key-positions = <9 20>;
+            key-positions = <9 19>;
         };
 
         pagedown {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <31 20>;
+            key-positions = <29 19>;
         };
 
         ctrl+w {
             bindings = <&kp RC(W)>;
-            key-positions = <20 8>;
+            key-positions = <19 7>;
         };
 
         ctrl+r {
             bindings = <&kp RC(R)>;
-            key-positions = <20 7>;
+            key-positions = <19 6>;
         };
 
         ctrl+t {
             bindings = <&kp RC(T)>;
-            key-positions = <20 5>;
+            key-positions = <19 6>;
         };
 
         F2combo {
